@@ -1,0 +1,21 @@
+{
+  "name": "vendor_name/demo_pod",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "pypy",
+      "email": "email@example.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "App",
+      "App\\Database\\": "App/Database"
+    }
+  },
+  "require": {
+    "ext-pdo": "*"
+  }
+}
